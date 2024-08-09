@@ -10,7 +10,7 @@
 - **public/**: HTML 和静态资源。
 - **src/**: 源代码目录。
 - **.env\***: 项目中我们通常会使用`环境变量`来影响应用在不同运行环境下的行为。可以通过[dotEnv](https://github.com/motdotla/dotenv)来从文件中读取环境变量。通常有三个文件:
-  - `.env.dev` 测试生产环境的环境变量 
+  - `.env.dev` 测试生产环境的环境变量
   - `.env.development` 开发环境的环境变量
   - `.env.production` 正式生成环境的环境变量
 - **.gitignore**: 忽略不必要的文件，避免将自动生成的文件提交到版本库。
@@ -39,7 +39,7 @@
 │   ├── store                # Vuex 配置
 │   ├── theme                # UI 库主题配置
 │   ├── utils                # 工具库，包含常用工具函数、常量配置、过滤器函数、ajax拦截器封装等
-│   ├── views                # 业务页面入口和常用模板
+│   ├── pages                # 业务页面入口和常用模板
 │   ├── App.vue              # Vue 模板入口
 │   └── main.js              # Vue 入口 JS
 ├── .browserslistrc          # 目标浏览器配置
@@ -62,7 +62,7 @@
 ├── package.json             # 项目描述文件
 ├── postcss.config.js        # postcss 配置
 ├── README.md                # 项目说明
-└── vue.config.js            # Vue CLI 配置
+└── vite.config.ts            # Vue CLI 配置
 ```
 
 ## 项目模板
@@ -77,10 +77,10 @@
 
 [datav-template](https://github.com/wkl007/datav-template)
 
-### uni-app项目模板
+### uni-app 项目模板
 
 [uni-app-template](https://github.com/wkl007/uni-app-template)
 
-### vant项目模板
+### vant 项目模板
 
 [vue-vant-template](https://github.com/wkl007/vue-wechat-template)

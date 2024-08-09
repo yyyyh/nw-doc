@@ -9,9 +9,9 @@
 ## 语言
 
 - Javascript
-  - 主要使用ECMAScript 2016+规范
+  - 主要使用 ECMAScript 2016+规范
 - Typescript
-  - 目前未使用Typescript，Vue 3.0发布稳定后会在合适的时机引入Typescript
+  - 目前未使用 Typescript，Vue 3.0 发布稳定后会在合适的时机引入 Typescript
 
 ## 框架
 
@@ -23,7 +23,8 @@
     - vue-router
   - 状态管理
     - vuex
-  - UI框架
+    - pinia
+  - UI 框架
     - Ant Design Vue
     - uView
     - Vant
@@ -38,31 +39,33 @@
 - pre-compiler
   - LESS
 - SCSS
+- UnoCSS
 
 ## Lint
 
 - ESlint
 - stylelint
 
-##   构建
+## 构建
 
+- vite
 - webpack
 - babel
 - PWA
 
 ## 包管理
 
-- yarn
-- yrm 【npm、yarn源管理工具】
+- npm
+- pnpm
 
 ## 开发工具
 
-- WebStorm
 - Visual Studio Code
+- WebStorm
 
 ## 文档生成
 
-- VuePress
+- vitePress
 
 ## 版本管理
 
@@ -70,6 +73,6 @@
 
 ## Vue 开发规范
 
-- [Vue.js 风格指南](https://cn.vuejs.org/v2/style-guide/index.html)
+- [Vue.js 风格指南](https://vuejs.ac.cn/style-guide/)
 
-- [Vue前端开发规范](https://juejin.im/post/5ada9b586fb9a07aaf34c746)
+- [Vue 前端开发规范](https://juejin.im/post/5ada9b586fb9a07aaf34c746)

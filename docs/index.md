@@ -8,7 +8,7 @@ hero:
   tagline:
   actions:
     - theme: brand
-      text: 前端开发规范
+      text: 进入查看
       link: /web/README
     # - theme: alt
     #   text: API Examples
