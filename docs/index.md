@@ -3,16 +3,16 @@
 layout: home
 
 hero:
-  name: '能维前端开发规范'
-  text: '开发规范指南'
+  name: '能维技术文档'
+  text: ''
   tagline:
   actions:
     - theme: brand
-      text: 进入查看
+      text: 前端开发规范
       link: /web/README
-    # - theme: alt
-    #   text: API Examples
-    #   link: /api-examples
+    - theme: brand
+      text: OPENDLP
+      link: /opendlp/v1.0/README
 
 features:
   - title: 功能丰富

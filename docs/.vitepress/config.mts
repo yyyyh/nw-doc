@@ -2,23 +2,21 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "能维前端规范",
+  title: "能维技术文档",
   description: "A VitePress Site",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
-      { text: '前端开发规范', link: '/web/README.md' }
+      { text: '前端开发规范', link: '/web/README.md' },
+      { text: 'OPENDLP介绍', link: '/opendlp/v1.0/README.md' }
     ],
 
-    sidebar: [
-      {
+    sidebar: {
+      '/web/': [{
         text: '前端开发规范',
         items: [
-          {
-            text: '介绍', 
-            link: '/web/README'
-          },
+          { text: '介绍',link: '/web/README' },
           { text: '工作流规范', link: '/web/chapter1' },
           { text: '技术栈规范', link: '/web/chapter2' },
           { text: '浏览器兼容规范', link: '/web/chapter3' },
@@ -31,8 +29,100 @@ export default defineConfig({
           { text: '前后端协作规范', link: '/web/chapter10' },
           { text: '培训/知识管理/技术沉淀', link: '/web/chapter11' }
         ]
-      }
-    ],
+      }],
+      '/opendlp/': [
+        {
+          text: '产品介绍',
+          items: [
+            {
+              text: '产品简介',
+              link: '/opendlp/introduction/README'
+            }
+          ]
+        },
+        {
+        text: 'v1.0',
+        collapsed: false,
+        items: [
+          {
+            text: '版本介绍',
+            link: '/opendlp/v1.0/README'
+          },
+          {
+            text: '实时监控',
+            items: [
+              {
+                text: '数据监控',
+                link: '/opendlp/v1.0/chapter1'
+              }
+            ]
+          }, {
+            text: '设备管理',
+            items: [
+              {
+                text: '设备',
+                link: '/opendlp/v1.0/chapter2'
+              },
+              {
+                text: '设备类型',
+                link: '/opendlp/v1.0/chapter3'
+              },
+              {
+                text: '数据检索',
+                link: '/opendlp/v1.0/chapter4'
+              }, {
+                text: '分屏展示',
+                link: '/opendlp/v1.0/chapter5'
+              }
+            ]
+          },{
+            text: '配置管理',
+            items: [
+              {
+                text: '采集器管理',
+                link: '/opendlp/v1.0/chapter6'
+              },
+              {
+                text: '空间管理',
+                link: '/opendlp/v1.0/chapter7'
+              },
+            ],
+          },{
+            text: '系统管理',
+            items: [
+              {
+                text: '用户管理',
+                link: '/opendlp/v1.0/chapter8'
+              },{
+                text: '角色管理',
+                link: '/opendlp/v1.0/chapter9'
+              },{
+                text: '个人中心',
+                link: '/opendlp/v1.0/chapter10'
+              },{
+                text: '字典管理',
+                link: '/opendlp/v1.0/chapter11'
+              },{
+                text: '菜单管理',
+                link: '/opendlp/v1.0/chapter12'
+              },{
+                text: '配置管理',
+                link: '/opendlp/v1.0/chapter13'
+              },
+            ]
+          },
+        ]
+      },{
+        text: 'v1.1',
+        collapsed: true,
+        items: [
+          {
+            text: '介绍',
+            link: '/opendlp/v1.1/README'
+          },
+        ]
+      }]
+    },
 
     // socialLinks: [
     //   { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
