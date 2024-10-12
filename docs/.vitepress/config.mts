@@ -2,14 +2,16 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "能维技术文档",
+  title: "能维文档",
   description: "A VitePress Site",
+  head: [['link', { rel: 'icon', href: '/logo.png' }]],
   themeConfig: {
+    logo: '/logo.png',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
       { text: '前端开发规范', link: '/web/README.md' },
-      { text: 'OPENDLP介绍', link: '/opendlp/v1.0/README.md' }
+      { text: 'OPEN-DLP介绍', link: '/opendlp/v1.0/README.md' }
     ],
 
     sidebar: {
@@ -93,22 +95,30 @@ export default defineConfig({
               {
                 text: '用户管理',
                 link: '/opendlp/v1.0/chapter8'
-              },{
+              }, {
                 text: '角色管理',
                 link: '/opendlp/v1.0/chapter9'
-              },{
+              }, {
                 text: '个人中心',
                 link: '/opendlp/v1.0/chapter10'
-              },{
+              }, {
                 text: '字典管理',
                 link: '/opendlp/v1.0/chapter11'
-              },{
+              }, {
                 text: '菜单管理',
                 link: '/opendlp/v1.0/chapter12'
-              },{
+              }, {
                 text: '配置管理',
                 link: '/opendlp/v1.0/chapter13'
-              },
+              }, {
+                text: '日志管理',
+                items: [
+                  {
+                    text: '调用日志',
+                    link: '/opendlp/v1.0/chapter14'
+                  },
+                ]
+              }
             ]
           },
         ]

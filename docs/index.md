@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: '能维技术文档'
+  name: '能维文档'
   text: ''
   tagline:
   actions:
@@ -11,7 +11,7 @@ hero:
       text: 前端开发规范
       link: /web/README
     - theme: brand
-      text: OPENDLP
+      text: OPEN-DLP
       link: /opendlp/v1.0/README
 
 features:
