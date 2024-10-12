@@ -15,10 +15,10 @@ hero:
       link: /opendlp/v1.0/README
 
 features:
-  - title: 功能丰富
-    details: 对 Babel、TypeScript、ESLint、PostCSS、PWA、单元测试和 End-to-end 测试提供开箱即用的支持。
-  - title: 易于扩展
-    details: 它的插件系统可以让社区根据常见需求构建和共享可复用的解决方案。
-  - title: 无需 Eject
-    details: Vue CLI 完全是可配置的，无需 eject。这样你的项目就可以长期保持更新了。
+  - title: 技术文档
+    details: 提供全面的技术指南与规范，涵盖系统架构设计、API接口说明、开发流程指导等内容，助力开发者快速上手并高效解决问题。。
+  - title: 产品文档
+    details: 详细介绍产品功能特性、使用方法及常见问题解答，帮助用户深入了解产品价值，提升使用体验，充分发挥产品潜力。
+  - title: 综合技术与产品文档
+    details: 结合技术深度与用户体验，不仅深入解析底层技术实现机制，还关注实际应用场景下的操作指引，旨在为用户提供从理论到实践的一站式解决方案。。
 ---
