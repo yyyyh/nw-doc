@@ -1,1 +1,0 @@
-import{_ as e,c as a,o as l,a2 as t}from"./chunks/framework.dQ9UgDGo.js";const m=JSON.parse('{"title":"工作流规范","description":"","frontmatter":{},"headers":[],"relativePath":"web/chapter1.md","filePath":"web/chapter1.md"}'),r={name:"web/chapter1.md"},o=t("",68),i=[o];function n(c,s,p,g,h,d){return l(),a("div",null,i)}const b=e(r,[["render",n]]);export{m as __pageData,b as default};

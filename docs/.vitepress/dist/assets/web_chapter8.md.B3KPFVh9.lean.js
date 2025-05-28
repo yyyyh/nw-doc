@@ -1,1 +1,0 @@
-import{_ as r,c as e,o as t,a2 as l}from"./chunks/framework.dQ9UgDGo.js";const f=JSON.parse('{"title":"测试规范","description":"","frontmatter":{},"headers":[],"relativePath":"web/chapter8.md","filePath":"web/chapter8.md"}'),a={name:"web/chapter8.md"},i=l("",27),o=[i];function n(s,p,h,g,c,u){return t(),e("div",null,o)}const m=r(a,[["render",n]]);export{f as __pageData,m as default};

@@ -5,6 +5,7 @@ export default defineConfig({
   title: "能维文档",
   description: "A VitePress Site",
   head: [['link', { rel: 'icon', href: '/logo.png' }]],
+  ignoreDeadLinks: true,// 忽略死链接
   themeConfig: {
     logo: '/logo.png',
     // https://vitepress.dev/reference/default-theme-config
