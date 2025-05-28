@@ -1,1 +1,0 @@
-import{_ as e,c as r,o as a,a2 as t}from"./chunks/framework.DlC1fzyH.js";const f=JSON.parse('{"title":"编码规范","description":"","frontmatter":{},"headers":[],"relativePath":"web/chapter5.md","filePath":"web/chapter5.md"}'),l={name:"web/chapter5.md"},i=t("",32),o=[i];function s(n,c,p,h,d,u){return a(),r("div",null,o)}const g=e(l,[["render",s]]);export{f as __pageData,g as default};

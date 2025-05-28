@@ -1,1 +1,0 @@
-import{_ as l,c as i,o as a,a2 as e}from"./chunks/framework.DlC1fzyH.js";const _=JSON.parse('{"title":"技术栈规范","description":"","frontmatter":{},"headers":[],"relativePath":"web/chapter2.md","filePath":"web/chapter2.md"}'),t={name:"web/chapter2.md"},r=e("",23),u=[r];function o(n,h,s,c,d,p){return a(),i("div",null,u)}const f=l(t,[["render",o]]);export{_ as __pageData,f as default};
