@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base:'/nw-doc/',
   title: "能维文档",
   description: "A VitePress Site",
   head: [['link', { rel: 'icon', href: '/logo.png' }]],
