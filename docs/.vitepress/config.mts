@@ -5,7 +5,7 @@ export default defineConfig({
   base:'/nw-doc/',
   title: "能维文档",
   description: "A VitePress Site",
-  head: [['link', { rel: 'icon', href: '/logo.png' }]],
+  head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
   ignoreDeadLinks: true,// 忽略死链接
   themeConfig: {
     logo: '/logo.png',
