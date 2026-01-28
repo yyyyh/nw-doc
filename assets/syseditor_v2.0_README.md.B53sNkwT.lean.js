@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as s}from"./chunks/framework.DpuVf8Pb.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"syseditor/v2.0/README.md","filePath":"syseditor/v2.0/README.md"}'),r={name:"syseditor/v2.0/README.md"};function a(o,c,n,d,i,p){return s(),t("div")}const E=e(r,[["render",a]]);export{m as __pageData,E as default};
