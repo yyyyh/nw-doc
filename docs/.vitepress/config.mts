@@ -13,6 +13,7 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       { text: '前端开发规范', link: '/web/README.md' },
+      { text: '组态编辑', link: '/syseditor/overview.md' },
       { text: 'OPEN-DLP介绍', link: '/opendlp/v1.0/README.md' }
     ],
 
@@ -133,7 +134,43 @@ export default defineConfig({
             link: '/opendlp/v1.1/README'
           },
         ]
-      }]
+        }],
+      '/syseditor/': [
+      {
+          text: '组态概述',
+          link: '/syseditor/overview'
+        },
+        {
+          text: 'v2.0',
+          collapsed: false,
+          items: [
+            {
+              text: '画布编辑',
+              link: '/syseditor/v2.0/canvas-editor'
+            },
+            {
+              text: '组件介绍',
+              link: '/syseditor/v2.0/componment-introduction'
+            },
+            {
+              text: '数据配置',
+              link: '/syseditor/v2.0/data-configuration'
+            },
+            {
+              text: '画布预览',
+              link: '/syseditor/v2.0/preview'
+            },
+            {
+              text: '菜单配置',
+              link: '/syseditor/v2.0/menu-configuration'
+            },
+            {
+              text: '常见问题',
+              link: '/syseditor/v2.0/faq'
+            },
+          ]
+        }
+      ]
     },
 
     // socialLinks: [

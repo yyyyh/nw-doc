@@ -13,6 +13,9 @@ hero:
     - theme: brand
       text: OPEN-DLP
       link: /opendlp/v1.0/README
+    - theme: brand
+      text: 组态编辑
+      link: /syseditor/overview
 
 features:
   - title: 技术文档
